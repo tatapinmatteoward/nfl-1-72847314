@@ -1,0 +1,248 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Paw-some Pet Toys" description="Discover fun, whimsical pet toys and honest reviews to keep your furry friends entertained and happy. Dive into a world of playful adventures for cats, dogs, and more!">
+  <!-- Hero Section -->
+  <div class="relative overflow-hidden bg-gradient-to-br from-amber-400 via-amber-500 to-amber-600 py-20 md:py-32">
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute top-10 left-10 w-24 h-24 rounded-full bg-emerald-400 animate-ping"></div>
+      <div class="absolute bottom-20 right-20 w-16 h-16 rounded-full bg-emerald-300 animate-pulse"></div>
+      <div class="absolute top-1/3 right-1/4 w-12 h-12 rounded-full bg-white animate-bounce"></div>
+    </div>
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="inline-block mb-6 px-4 py-2 bg-white bg-opacity-20 rounded-full backdrop-blur-sm">
+          <span class="text-white font-bold text-lg">Fun Toys and Reviews for Happy Pets</span>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
+          Paw-some Pet Toys
+        </h1>
+        <p class="text-xl text-white mb-10 max-w-2xl mx-auto">
+          Where every wag, purr, and playful leap is celebrated! Discover whimsical toys that spark joy and endless fun.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="#featured" class="px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-full shadow-lg transform hover:scale-105 transition duration-300">
+            Explore Toys
+          </a>
+          <a href="#reviews" class="px-8 py-4 bg-white hover:bg-amber-50 text-amber-600 font-bold rounded-full shadow-lg transform hover:scale-105 transition duration-300">
+            Read Reviews
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why Choose Section -->
+  <section class="py-20 bg-gradient-to-b from-white to-amber-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-amber-700 mb-4">Why Choose Paw-some?</h2>
+        <div class="w-24 h-1 bg-emerald-500 mx-auto rounded-full"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+        <div class="bg-white rounded-2xl p-8 shadow-xl border-2 border-amber-100 transform hover:-translate-y-2 transition duration-300">
+          <div class="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-6 mx-auto">
+            <i class="fas fa-hand-pointer text-amber-500 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-amber-700 text-center mb-3">Curated Selection</h3>
+          <p class="text-gray-600 text-center">
+            Handpicked toys that are safe, durable, and oh-so-fun for your furry friends!
+          </p>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-8 shadow-xl border-2 border-amber-100 transform hover:-translate-y-2 transition duration-300">
+          <div class="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-6 mx-auto">
+            <i class="fas fa-star text-amber-500 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-amber-700 text-center mb-3">Expert Reviews</h3>
+          <p class="text-gray-600 text-center">
+            Honest insights from pet lovers like you, rating everything from bounce to bite-resistance.
+          </p>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-8 shadow-xl border-2 border-amber-100 transform hover:-translate-y-2 transition duration-300">
+          <div class="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-6 mx-auto">
+            <i class="fas fa-paint-brush text-amber-500 text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold text-amber-700 text-center mb-3">Whimsical Vibes</h3>
+          <p class="text-gray-600 text-center">
+            Playful designs inspired by your pet's wildest dreams - rainbow ropes and starry tunnels!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Toys Section -->
+  <section id="featured" class="py-20 bg-gradient-to-b from-amber-50 to-emerald-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-amber-700 mb-4">Featured Toys Spotlight</h2>
+        <p class="text-xl text-amber-600 max-w-2xl mx-auto">
+          Paw-fectly Playful Adventures Await! 🐶🐱
+        </p>
+        <div class="w-24 h-1 bg-emerald-500 mx-auto rounded-full mt-4"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <!-- Toy Card 1 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition duration-300">
+          <div class="p-1 bg-gradient-to-r from-amber-400 to-emerald-400">
+            <div class="bg-white rounded-2xl p-6">
+              <div class="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
+                <i class="fas fa-bone text-amber-500 text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-amber-700 mb-2">The Ultimate Chewbone</h3>
+              <p class="text-gray-600 mb-4">
+                Durable rubber bone with enticing flavors that will keep your pup engaged for hours.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-emerald-600">$14.99</span>
+                <div class="flex text-amber-400">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Toy Card 2 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition duration-300">
+          <div class="p-1 bg-gradient-to-r from-amber-400 to-emerald-400">
+            <div class="bg-white rounded-2xl p-6">
+              <div class="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
+                <i class="fas fa-feather text-amber-500 text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-amber-700 mb-2">Rainbow Feather Wand</h3>
+              <p class="text-gray-600 mb-4">
+                Colorful feathers on a flexible wand for endless chasing fun for your feline friends.
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-emerald-600">$12.99</span>
+                <div class="flex text-amber-400">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Toy Card 3 -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition duration-300">
+          <div class="p-1 bg-gradient-to-r from-amber-400 to-emerald-400">
+            <div class="bg-white rounded-2xl p-6">
+              <div class="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-4">
+                <i class="fas fa-robot text-amber-500 text-2xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-amber-700 mb-2">Interactive Treat Bot</h3>
+              <p class="text-gray-600 mb-4">
+                Smart toy that dispenses treats when your pet solves puzzles - mental stimulation galore!
+              </p>
+              <div class="flex justify-between items-center">
+                <span class="text-2xl font-bold text-emerald-600">$29.99</span>
+                <div class="flex text-amber-400">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="reviews" class="py-20 bg-gradient-to-b from-emerald-50 to-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-amber-700 mb-4">Happy Pets, Happy Owners!</h2>
+        <p class="text-xl text-amber-600 max-w-2xl mx-auto">
+          See what pet parents are saying about our whimsical toys
+        </p>
+        <div class="w-24 h-1 bg-emerald-500 mx-auto rounded-full mt-4"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-amber-100 relative">
+          <div class="text-amber-400 text-5xl absolute top-0 left-6 transform -translate-y-1/2">❝</div>
+          <p class="text-gray-600 mb-6 mt-4">
+            My golden retriever absolutely loves the Ultimate Chewbone! It's the only toy that survived his powerful jaws. Worth every penny!
+          </p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center mr-4">
+              <i class="fas fa-dog text-amber-500"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-amber-700">Sarah M.</h4>
+              <p class="text-gray-500 text-sm">Golden Retriever Parent</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-amber-100 relative">
+          <div class="text-amber-400 text-5xl absolute top-0 left-6 transform -translate-y-1/2">❝</div>
+          <p class="text-gray-600 mb-6 mt-4">
+            The Rainbow Feather Wand has brought so much joy to my cat Luna. She chases it like it's her favorite prey. Highly recommend!
+          </p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center mr-4">
+              <i class="fas fa-cat text-amber-500"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-amber-700">Michael T.</h4>
+              <p class="text-gray-500 text-sm">Cat Dad to Luna</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white p-8 rounded-3xl shadow-lg border-2 border-amber-100 relative">
+          <div class="text-amber-400 text-5xl absolute top-0 left-6 transform -translate-y-1/2">❝</div>
+          <p class="text-gray-600 mb-6 mt-4">
+            The Interactive Treat Bot keeps our puppy mentally stimulated during long workdays. We come home to a tired and happy pup!
+          </p>
+          <div class="flex items-center">
+            <div class="w-12 h-12 rounded-full bg-amber-100 flex items-center justify-center mr-4">
+              <i class="fas fa-paw text-amber-500"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-amber-700">Jennifer K.</h4>
+              <p class="text-gray-500 text-sm">Working Dog Parent</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-amber-500 to-amber-600">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready for Some Paw-some Fun?</h2>
+      <p class="text-xl text-amber-100 max-w-2xl mx-auto mb-10">
+        Join thousands of happy pets who've discovered their new favorite toys with us!
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="/toys" class="px-10 py-5 bg-white text-amber-600 font-bold rounded-full shadow-lg transform hover:scale-105 transition duration-300 text-lg">
+          Shop All Toys
+        </a>
+        <a href="/reviews" class="px-10 py-5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold rounded-full shadow-lg transform hover:scale-105 transition duration-300 text-lg">
+          Read Reviews
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
